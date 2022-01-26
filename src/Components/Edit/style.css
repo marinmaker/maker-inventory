@@ -1,0 +1,12 @@
+/*-----------------
+# Edit
+------------------*/
+.mod-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+.btn {
+  margin: 0 30px;
+}
