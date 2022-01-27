@@ -1,7 +1,7 @@
-import React from 'react';
-import SignIn from './Components/SignIn';
-import About from './Components/About';
-import Edit from './Components/Edit';
+import React from 'react'
+import SignIn from "../../Components/SignIn"
+import About from '../../Components/About';
+import Edit from '../../Components/Edit';
 
 const Home = () => {
      return (

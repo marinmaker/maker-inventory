@@ -1,5 +1,5 @@
 import React, {useState, UseContext} from 'react';
-import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from './pages/Home/Home';
 import { KitContext } from "./context/KitContext";
@@ -14,10 +14,9 @@ function App() {
    <KitQuantityContext.Provider value={{kitQuantity, setKitQuantity}}>
      <KitContext.Provider value ={{kits, setKits}}>
        <Router>
-         <Switch>
-           <Route exact path="/" component={Home}/>
-           <Route exact path="/dashboard" component={Dashboard} />
-         </Switch>
+         <Routes>
+           <Route path="/" element={<Home/>} />
+         </Routes>
        </Router>
      </KitContext.Provider>
    </KitQuantityContext.Provider>
