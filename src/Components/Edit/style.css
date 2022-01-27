@@ -1,12 +1,17 @@
 /*-----------------
 # Edit
 ------------------*/
-.mod-btns {
+.footer {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 20px;
+  height: 100%;
+}
+.edit-row {
   margin-right: 50px;
 }
-.btn {
-  margin: 0 30px;
+.edit-btn {
+  margin-right: 10px;
+}
+.add-btn {
+  margin-right: 10px;
 }

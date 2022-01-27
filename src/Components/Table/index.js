@@ -5,7 +5,7 @@ function Table() {
     return(
         //inventory listed as buttons
         <section id="table" className="inventoryTable">
-            <div className="containter fluid">
+            <div className="container fluid">
                 <div className="row">
                     <div className="col"><button type="button" class="btn btn-outline-dark">Kit 1</button>
                     </div>

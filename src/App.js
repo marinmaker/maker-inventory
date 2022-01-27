@@ -2,6 +2,7 @@ import React, {useState, UseContext} from 'react';
 import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from './pages/Home/Home';
+import Dashboard from "./pages/Dashboard/Dashboard";
 import { KitContext } from "./context/KitContext";
 import { KitQuantityContext } from "./context/KitQuantityContext";
 
@@ -16,6 +17,7 @@ function App() {
        <Router>
          <Routes>
            <Route path="/" element={<Home/>} />
+           <Route path="/dashboard" element={<Dashboard/>} />
          </Routes>
        </Router>
      </KitContext.Provider>

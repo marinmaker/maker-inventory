@@ -2,7 +2,7 @@
 # About
 ------------------*/
 .about {
-  height: 500px;
+  height: auto;
 }
 .container {
   display: flex;

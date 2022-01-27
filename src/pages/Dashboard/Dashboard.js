@@ -9,6 +9,9 @@ import {UsernameContext} from "../../context/UsernameContext";
 import { UserIdContext } from "../../context/UserIdContext";
 
 import Table from "../../Components/Table";
+import About from "../../Components/About";
+import Edit from "../../Components/Edit";
+
 
 const Items = () => {
     // const [redirect, setRedirect] = useState(null);
@@ -21,7 +24,12 @@ const Items = () => {
     // const {kits, setKits} = useContext()
 
     return(
+        <>
+        <About />
         <Table />
+        <Edit  />
+        </>
+
     );
 };
 
